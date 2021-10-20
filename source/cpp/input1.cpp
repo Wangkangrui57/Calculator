@@ -43,5 +43,8 @@ void Input1::slot_calculate(){
 }
 
 void Input1::slot_reset(){
-
+    ui->mInput->setText("");
+    ui->nInput->setText("");
+    ui->pmInput->setText("");
+    ui->pnInput->setText("");
 }
